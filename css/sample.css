@@ -1,0 +1,131 @@
+body {
+    margin:0 300px 0 300px;
+}
+
+.title {
+    width: 920px;
+    margin: 0 auto 40px auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.header-navigation {
+    width:100%;
+    background-color: black;
+    padding:20px 0 20px 0;
+}
+
+.header-navigation:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.header-navigation li {
+    float: left;
+    padding:0 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.header-navigation li a {
+    color:white;
+    text-decoration: none;
+}
+
+.icon {
+    width:120px;
+    height: 120px;
+    margin-right: 10px;
+    border: solid lightgray;
+}
+
+.blog-title a {
+    text-decoration: none;
+}
+
+.overview {
+    font-size: 5px;
+    color: #777;
+    line-height: 17px;
+}
+
+.calendar {
+    font-size: 6px;
+}
+
+.card-contents {
+    margin-bottom: 25px;
+}
+
+.side {
+    width:300px;
+    height: 300px;
+    float: left;
+}
+
+.container {
+    display:  flex;
+}
+
+.left-contents {
+    width: 100%;
+    min-width: 600px;
+    max-width: 1000px;
+    margin:20px 0 0 20px;
+    height: 400px;
+}
+
+side {
+    width: 300px;
+    min-width: 300px;
+    margin: auto;
+    height: 300px;
+}
+
+.article {
+    text-size:20px;
+    margin-left:20px
+}
+
+hr {
+    margin:-5px 0px 20px 20px;
+}
+
+.new-icon {
+    width:35px;
+    height:35px;
+    margin:-5px 5px 0 20px;
+    border: solid lightgray;
+}
+
+.new-calendar {
+    font-size: 7px;
+    margin:-5px 0 -10px 0;
+}
+
+.new-title {
+    font-size: 7px;
+    margin-top: 15px;
+}
+
+.new-title a {
+    text-decoration: none;
+}
+
+.newcontents {
+    margin-bottom: 35px;
+}
+
+.line {
+    margin-top: 90px;
+}
+
+.copyright {
+    color:#777;
+    text-align: center;
+    font-size: 10px;
+    margin:20px 0 45px 0;
+}
